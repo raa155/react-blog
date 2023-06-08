@@ -1,14 +1,14 @@
 import React from 'react'
 import './Topbar.scss';
 
-// Material UI Icons 
+// Material UI Icons
 import SearchIcon from '@mui/icons-material/Search';
 import { Link } from 'react-router-dom';
 
 
 const Topbar = () => {
 
-    const user = true;
+    const user = false;
     return (
         <div className="topBar">
             <div className="topLeft">

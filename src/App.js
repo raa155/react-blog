@@ -1,4 +1,6 @@
+import React from "react";
 
+// import pages
 import Topbar from "./components/Topbar/Topbar";
 import Home from "./pages/Home/Home";
 import Single from "./pages/Single/Single";
@@ -13,7 +15,6 @@ import {
   Outlet,
   Navigate
 } from 'react-router-dom';
-
 
 
 

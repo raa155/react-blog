@@ -34,19 +34,21 @@
                 border:none;
                 outline:none;
                 padding:1.25rem;
-                width: 70vw;
+                width: calc(70vw - 1.5625rem);
             }
 
             .writeText{
                 font-size: 1.25rem;
-                height:100vh;
+                height:50vh;
             }
         }
 
         .writeSubmit{
-            position:absolute;
-            top:3.2rem;
-            right:6rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 9.375rem;
+            width: 70vw;
             color:white;
             background-color: teal;
             border:none;
